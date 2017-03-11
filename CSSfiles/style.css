@@ -1,0 +1,240 @@
+html{ 
+    background:#c0c0c0
+
+}
+
+#MyWebsite{
+    width:1100px;
+    min-height: 400px;
+    padding:0 50px;
+ 
+    margin: 5px;
+  
+}
+#header{height:235px;
+        width: 1200px;
+       
+        background-image:  url(backgrondWrabber-1.jpg);
+       
+
+}
+
+#logo{padding-top: 67px;}
+#logo img{width: 285px; height: 118px;}
+#menue{margin-top: 15px;
+     /* border: 1px solid #66d2ff;*/
+       width: 1200px; height: 40px; background-color: #000;}
+#menue ul{float: left;}
+#menue ul li{float: left; 
+             min-width: 100px;
+             padding: 0 30px;
+             line-height: 40px;
+}
+#menue ul li a{text-decoration: none; color:#FFF;
+               font-size: 14px;
+               font-family:Arial, Helvetica,sans-serif;}
+
+#SocialLinks{float: right;margin-right: 10px;}
+#SocialLinks h1{float: left;line-height: 40px;margin-right: 15px;
+                color: #fff;
+                font-size: 14px;
+                font-family:Arial, Helvetica,sans-serif;}
+#SocialLinks img{padding: 0px; margin-right: 0px;
+                 margin-top: 4px;}
+
+#SideBar{width:270px;
+         float: left;
+         min-height: 200px; 
+        
+}
+.Side{width: 270px;
+
+      min-height: 200px;
+      background: url(backgroundSide2.jpg) repeat;
+}
+.Side_head{width: 270px;height: 55px;
+           background:url(SideHead7.png) no-repeat;
+           background-size: 100%; 
+          
+           text-align: center;
+}
+.Side_head h1{color: #fff;
+              font-family: Verdana,Onerva,sans-serif;
+              font-size: 14px;
+              font-weight: bold;
+              line-height: 40px;
+
+}
+.Side_body{
+
+}
+.Side_body ul{padding: 5px;padding-left: 35px;}
+.Side_body ul li{list-style-image: url(arrow2.png);}
+.Side_body ul li a{text-decoration: none;
+                   font-size: 14px;line-height: 20px;
+                   font-family: Verdana,Geneva,sans-serif;
+                   color: #ba3304;
+
+}
+.Description{margin-top: 10px;margin-left: 10px; padding: 5px;}
+
+.Description ul{padding: 5px;padding-left: 35px;}
+.Description ul li{list-style-image: url(arrow2.png);}
+.Description ul li h1{color: #fff;
+              font-family: Verdana,Onerva,sans-serif;
+              font-size: 20px;
+              font-weight: bold;
+              line-height: 40px;
+
+}
+.Description h3{font-family: Verdana,Geneva,sans-serif;
+    font-size: 25px;
+    color: #ba3304;
+    margin-bottom: 20px;}
+.Description h2{ font-family: Verdana,Geneva,sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: black;}
+.Side_body h1{
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Verdana,Geneva,sans-serif;
+    color: #ba3304;
+
+}
+.Side_body h2{
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: Verdana,Geneva,sans-serif;
+    color: #381c3c;
+
+}
+
+.Side form{text-align: center;}
+.Side form input[type="text"]{margin-top: 10px;width:195px; border:0; height: 25px; padding: 5px;margin-bottom: 10px;}
+
+.Side form input[type="email"]{margin-top: 10px;width:195px; border:0; height: 25px; padding: 5px;margin-bottom: 10px;}
+.Side form input[type="password"]{width: 195px;  border:0; height: 25px;padding: 5px;margin-bottom: 10px; }
+.Side form textarea{width:247px;  
+                    border:0px; height: 90px; padding: 5px;
+                    font-family: Verdana,Geneva,sans-serif;
+                    font-size: 12px;
+                    text-align: center;
+
+                    margin-bottom: 10px;}
+
+.Side input[type="submit"]{
+    width: 200px;
+    height: 40px;
+    background-color: #333;
+    color: #f5f4f4;
+    border:0px;
+    border-radius: 25px;
+}
+
+#context{width: 810px;min-height: 300px;
+         float: right;
+}
+#slider{
+    margin-top: 10px;
+    width: 810px;min-height: 310px;
+    margin-left: 20px;
+
+}
+#slider img{width: 800px; height:330px; margin-left: 20px; }
+#LatestProject{margin-top: 20px; margin-bottom: 20px; width: 810px; min-height:300px;}
+#LatestProject h1{ 
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 17px;
+    color: #cb0030;
+    margin-bottom: 20px;
+
+}
+.Project{
+    width: 395px; height: 100px;float: left; margin-top: 10px;margin-bottom: 20px;
+
+
+}
+.Project:nth-child(even){margin-right: 20px;}
+.Project img{
+    float: left;
+    margin-right: 10px;
+    width:140px; height:100px;
+
+
+}
+.Project h2{
+    color: skyblue;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 19px;
+}
+.Project p{
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    color: black;
+
+}
+.Project a{
+    text-decoration: none;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+    color: #592c5f;
+    float: right;
+}
+.FormClass{ background: #ECECE3; margin-top: 15px;}
+.FormClass form{text-align: center;}
+.FormClass form h1{  color: skyblue;
+                     font-family: Verdana,Geneva,sans-serif;
+                     font-size: 19px;}
+.FormClass form input[type="text"]{margin-top: 10px;width:195px; border:0; height: 25px; padding: 5px;margin-bottom: 10px;}
+.FormClass form input[type="tel"]{margin-top: 10px;width:195px; border:0; height: 25px; padding: 5px;margin-bottom: 10px;}
+.FormClass form select{margin-top: 10px;width:195px; border:0; height: 25px; padding: 5px;margin-bottom: 10px;}
+
+.FormClass form input[type="email"]{margin-top: 10px;width:195px; border:0; height: 25px; padding: 5px;margin-bottom: 10px;}
+.FormClass form input[type="password"]{width: 195px;  border:0; height: 25px;padding: 5px;margin-bottom: 10px; }
+.FormClass form textarea{width:247px;  
+                         border-radius: 25px;
+                         border:0px; height: 90px; padding: 10px;
+                         text-align: center;
+                         font-family: Verdana,Geneva,sans-serif;
+                         font-size: 12px;
+                         text-align: justify;
+                         margin-bottom: 10px;}
+
+.FormClass input[type="submit"]{
+    width: 200px;
+    height: 40px;
+    background-color: #333;
+    color: #f5f4f4;
+    border:0px;
+    border-radius: 25px;
+}
+.FormClass input[type="file"]{
+    width: 140px;
+    height: 30px;
+    color: #808080;
+    border:0px;
+
+}
+#ContactUs{margin:20px; text-align: center;}
+#footer{
+    margin-top:1000px;
+    width: 1200px;
+    height: 30px;
+    background-color:#808080;
+    clear: both;
+    color: #fff;
+    text-align: center;
+}
+.ProductPage{margin-top:20px;}
+
+/*   #Footer{width: 1300px; height: 300px; background-color: #2E2E2D; margin-top: 1600px;margin-left: -50px; clear: both;}
+   #send{float: left; margin-top: 40px;  margin-right: 300px;}
+   #send form input[type="text"]{border-radius: 5px; padding-left: 5px; margin-left: 40px;width: 205px;margin-bottom: 5px; }
+   #send form input[type="email"]{ padding-left: 5px;border-radius: 5px; width: 205px;margin-left: 40px;margin-bottom: 5px;}
+    #send form textarea{ padding-left: 10px; height: 50px; width: 200px;border-radius: 5px; margin-left: 40px;margin-bottom: 5px;}
+    #send  form  input[type="submit"]{margin-left: 40px; float: left;margin-top: 10px; border-radius: 5px;}
+   #Footer table td{padding-top: 50px; padding-left: 10px;}*/
